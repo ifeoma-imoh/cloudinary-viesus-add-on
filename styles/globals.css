@@ -1,16 +1,25 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.main_con {
+  max-width: 35rem;
+  margin: auto;
+  display: grid;
+  gap: 2rem;
 }
-
-* {
-  box-sizing: border-box;
+article {
+  text-align: center;
+}
+h2 {
+  text-transform: capitalize;
+}
+button {
+  padding: 0.8rem 0.3rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.img_con img {
+  width: 30rem;
 }
